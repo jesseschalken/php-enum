@@ -1,0 +1,10 @@
+<phpunit colors="true">
+    <testsuite>
+        <file>EnumTest.php</file>
+    </testsuite>
+    <filter>
+        <whitelist>
+            <file>Enum.php</file>
+        </whitelist>
+    </filter>
+</phpunit>
